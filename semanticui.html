@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Semantic UI Script</title>
+  <link rel="stylesheet" href="libs/css/semantic.css">
+  <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <h2>Modal模态框</h2>
+  <div class="ui section divider"></div>
+  <button type="button" name="button" class="loginModal">登录</button>
+  <div class="ui first modal">
+    <h2 class="header">删除文章</h2>
+    <div class="content">删除文章同事删除问题张 <button type="button" name="button" class="regModal btn btn-success">忘记密码</button></div>
+    <div class="actions">
+      <button class="ui negative button">否</button>
+      <button class="ui positive button">是</button>
+    </div>
+  </div>
+  <div class="ui second modal">
+    <h2 class="header">删除文章</h2>
+    <div class="content">删除文章同事删除问题 <button type="button" name="button" class="regModal">忘记密码</button></div>
+    <div class="ui progress active"><div class="bar" style="width:30%;"></div></div>
+  </div>
+
+<script src="libs/js/jquery.min.js"></script>
+<script src="libs/js/semantic.js"></script>
+<script>
+$('.loginModal').click(function(){
+  $('.ui.first.modal').modal('show');
+});
+$('.ui.second.modal').modal(
+  'attach events',
+  '.first.modal .regModal',
+  'show'
+);
+</script>
+</body>
+</html>

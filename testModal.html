@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>积分商城 - 互联网P2P+O2O金融理财</title>
+    <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="libs/js/jquery.min.js"></script>
+    <script src="libs/js/bootstrap.min.js"></script>
+    <script src="libs/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="js/selectScript.js"></script>
+</head>
+<body>
+   <!--聚元财富 头部 导航 开始-->
+   <header>
+     <div id="investtop">
+      <div class="jytop">
+       <div class="top">
+           <div class="pull-left"><span><a href="index.html">返回金融超市</a></span> <span class="vline">|</span> <span class="fclink"><a href="invest-mall.html">投资商城</a></span> <span class="fclink"><a href="finance-mall.html">融资商城</a></span>
+           <span class="fclink"><a href="enterprise-customized.html">企业定制</a></span> <span class="fclink"><a href="non-performing.html">不良资产</a></span> <span class="fclink"><a href="mall-point.html">积分商城</a></span> <span class="fclink"><a href="finance-community.html">理财社区</a></span>
+           </div>
+           <div class="pull-right"><span class="media"><a href="#">官方媒体 <span class="caret"></span></a><ul class="submedia">
+               <li><a href="#"><img src="images/weixin-top.png" alt=""></a> <a href="#"><img src="images/weibo-top.png" alt=""></a> <a href="#"><img src="images/qq-top.png" alt=""></a></li>
+               <li><a href="#"><img src="images/qrcode.png" alt="" /></a></li>
+           </ul></span><span class="vline">|</span>全国热线：<span class="telno">400-8161-888</span><span class="vline">|</span>
+           <a href="#" class="btn btn-sm btn-warning" id="bttool">注册</a> <a href="#" class="btn btn-success btn-sm" id="bttool">登录</a>
+           </div>
+       </div>
+       </div>
+       </div>
+    <div class="container">
+      <nav class="navbar">
+     <div class="navbar-header">
+       <a href="#"><img src="images/logo.png" alt="Juyuan Logo"></a> <span class="sitemark"><img src="images/grade-shop.png" alt="Site Mark"></span>
+     </div>
+     <div class="collapse navbar-collapse">
+       <div class="nav navbar-nav navbar-right">
+         <div class="search-box">
+         <form class="form-inline">
+  <div class="form-group">
+    <label for="input-text"></label>
+    <input type="text" class="form-control" id="input-text" placeholder="您想购买的产品是……" size="40">
+  </div>
+  <button type="submit" class="btn btn-default btn-search">搜索</button>
+ </form>
+ </div>
+       </div>
+     </div><!-- /.navbar-collapse -->
+   </nav>
+    </div>
+   </header><!--聚元财富 头部 导航 结束-->
+    <!--主题区块开始-->
+    <content>
+   <!-- 投资商城开始 -->
+   <div class="credit-lists">
+     <div class="credit_list">
+       <div id="credit_list" class="container">
+         <div class="mall-condition">
+           <ul class="select">
+             <li class="select-result">
+                <dl>
+                  <dt>条件</dt>
+                  <dd class="select-no">暂时没有选择过滤条件</dd>
+                </dl>
+              </li>
+         		<li class="select-list">
+         			<dl id="select1">
+         				<dt>类别</dt>
+         				<dd class="select-all selected"><a href="#">不限</a></dd>
+         				<dd><a href="#">家用电器</a></dd>
+         				<dd><a href="#">手机数码</a></dd>
+         				<dd><a href="#">母婴用品</a></dd>
+         				<dd><a href="#">图书影像</a></dd>
+         				<dd><a href="#">家用电器</a></dd>
+         				<dd><a href="#">手机数码</a></dd>
+         				<dd><a href="#">户外运动</a></dd>
+         			</dl>
+         		</li>
+         		<li class="select-list">
+         			<dl id="select2">
+         				<dt>积分</dt>
+         				<dd class="select-all selected"><a href="#">不限</a></dd>
+         				<dd><a href="#">500积分以下</a></dd>
+         				<dd><a href="#">500-1000积分</a></dd>
+         				<dd><a href="#">2000-5000积分</a></dd>
+         				<dd><a href="#">5000-15000积分</a></dd>
+         				<dd><a href="#">15000积分以上</a></dd>
+         			</dl>
+         		</li>
+         	</ul>
+         </div>
+         <div class="order-condition">
+         <span class="pull-left"><a href="#" class="bg-active">默认排序</a>
+         <a href="#">最新</a>
+         <a href="#">热门</a><a href="#">积分</a></span>
+         </div>
+         <div class="clearfix"></div>
+         <div class="mall-point">
+         <div class="container" id="point-shopping">
+         <div class="row">
+           <div class="col-lg-3">
+             <div class="ps_item bg-white">
+               <a href="mall-show.html" class="thumbnail"><img src="images/jfshop-01.jpg" alt="" /></a>
+               <h2>NIKE轻量化跑鞋</h2>
+               <span class="pull-left">积分价：<i>150000</i></span><span class="pull-right">销量：<i>1325</i></span>
+               <div class="ps_btn"><a href="#" data-toggle="modal" data-target="#buyModal" class="btn btn-warning jybtn" >立即购买</a></div>
+             </div>
+           </div>
+           <div class="col-lg-3">
+             <div class="ps_item bg-white">
+               <a href="mall-show.html" class="thumbnail"><img src="images/jfshop-02.jpg" alt="" /></a>
+               <h2>NIKE轻量化跑鞋</h2>
+               <span class="pull-left">积分价：<i>150000</i></span><span class="pull-right">销量：<i>1325</i></span>
+               <div class="ps_btn"><a href="#" class="btn btn-warning jybtn">立即购买</a></div>
+             </div>
+           </div>
+           <div class="col-lg-3">
+             <div class="ps_item bg-white">
+               <a href="mall-show.html" class="thumbnail"><img src="images/jfshop-03.jpg" alt="" /></a>
+               <h2>NIKE轻量化跑鞋</h2>
+               <span class="pull-left">积分价：<i>150000</i></span><span class="pull-right">销量：<i>1325</i></span>
+               <div class="ps_btn"><a href="#" class="btn btn-warning jybtn">立即购买</a></div>
+             </div>
+           </div>
+           <div class="col-lg-3">
+             <div class="ps_item bg-white">
+               <a href="mall-show.html" class="thumbnail"><img src="images/jfshop-04.jpg" alt="" /></a>
+               <h2>NIKE轻量化跑鞋</h2>
+               <span class="pull-left">积分价：<i>150000</i></span><span class="pull-right">销量：<i>1325</i></span>
+               <div class="ps_btn"><a href="#" class="btn btn-warning jybtn">立即购买</a></div>
+             </div>
+           </div>
+           <div class="col-lg-3">
+             <div class="ps_item bg-white">
+               <a href="mall-show.html" class="thumbnail"><img src="images/jfshop-01.jpg" alt="" /></a>
+               <h2>NIKE轻量化跑鞋</h2>
+               <span class="pull-left">积分价：<i>150000</i></span><span class="pull-right">销量：<i>1325</i></span>
+               <div class="ps_btn"><a href="#" class="btn btn-warning jybtn">立即购买</a></div>
+             </div>
+           </div>
+           <div class="col-lg-3">
+             <div class="ps_item bg-white">
+               <a href="mall-show.html" class="thumbnail"><img src="images/jfshop-02.jpg" alt="" /></a>
+               <h2>NIKE轻量化跑鞋</h2>
+               <span class="pull-left">积分价：<i>150000</i></span><span class="pull-right">销量：<i>1325</i></span>
+               <div class="ps_btn"><a href="#" class="btn btn-warning jybtn">立即购买</a></div>
+             </div>
+           </div>
+           <div class="col-lg-3">
+             <div class="ps_item bg-white">
+               <a href="mall-show.html" class="thumbnail"><img src="images/jfshop-03.jpg" alt="" /></a>
+               <h2>NIKE轻量化跑鞋</h2>
+               <span class="pull-left">积分价：<i>150000</i></span><span class="pull-right">销量：<i>1325</i></span>
+               <div class="ps_btn"><a href="#" class="btn btn-warning jybtn">立即购买</a></div>
+             </div>
+           </div>
+           <div class="col-lg-3">
+             <div class="ps_item bg-white">
+               <a href="mall-show.html" class="thumbnail"><img src="images/jfshop-04.jpg" alt="" /></a>
+               <h2>NIKE轻量化跑鞋</h2>
+               <span class="pull-left">积分价：<i>150000</i></span><span class="pull-right">销量：<i>1325</i></span>
+               <div class="ps_btn"><a href="#" class="btn btn-warning jybtn">立即购买</a></div>
+             </div>
+           </div>
+           <div class="col-lg-3">
+             <div class="ps_item bg-white">
+               <a href="mall-show.html" class="thumbnail"><img src="images/jfshop-01.jpg" alt="" /></a>
+               <h2>NIKE轻量化跑鞋</h2>
+               <span class="pull-left">积分价：<i>150000</i></span><span class="pull-right">销量：<i>1325</i></span>
+               <div class="ps_btn"><a href="#" class="btn btn-warning jybtn">立即购买</a></div>
+             </div>
+           </div>
+           <div class="col-lg-3">
+             <div class="ps_item bg-white">
+               <a href="mall-show.html" class="thumbnail"><img src="images/jfshop-02.jpg" alt="" /></a>
+               <h2>NIKE轻量化跑鞋</h2>
+               <span class="pull-left">积分价：<i>150000</i></span><span class="pull-right">销量：<i>1325</i></span>
+               <div class="ps_btn"><a href="#" class="btn btn-warning jybtn">立即购买</a></div>
+             </div>
+           </div>
+           <div class="col-lg-3">
+             <div class="ps_item bg-white">
+               <a href="mall-show.html" class="thumbnail"><img src="images/jfshop-03.jpg" alt="" /></a>
+               <h2>NIKE轻量化跑鞋</h2>
+               <span class="pull-left">积分价：<i>150000</i></span><span class="pull-right">销量：<i>1325</i></span>
+               <div class="ps_btn"><a href="#" class="btn btn-warning jybtn">立即购买</a></div>
+             </div>
+           </div>
+           <div class="col-lg-3">
+             <div class="ps_item bg-white">
+               <a href="mall-show.html" class="thumbnail"><img src="images/jfshop-04.jpg" alt="" /></a>
+               <h2>NIKE轻量化跑鞋</h2>
+               <span class="pull-left">积分价：<i>150000</i></span><span class="pull-right">销量：<i>1325</i></span>
+               <div class="ps_btn"><a href="#" class="btn btn-warning jybtn">立即购买</a></div>
+             </div>
+           </div>
+           <div class="col-lg-3">
+             <div class="ps_item bg-white">
+               <a href="mall-show.html" class="thumbnail"><img src="images/jfshop-01.jpg" alt="" /></a>
+               <h2>NIKE轻量化跑鞋</h2>
+               <span class="pull-left">积分价：<i>150000</i></span><span class="pull-right">销量：<i>1325</i></span>
+               <div class="ps_btn"><a href="#" class="btn btn-warning jybtn">立即购买</a></div>
+             </div>
+           </div>
+           <div class="col-lg-3">
+             <div class="ps_item bg-white">
+               <a href="mall-show.html" class="thumbnail"><img src="images/jfshop-02.jpg" alt="" /></a>
+               <h2>NIKE轻量化跑鞋</h2>
+               <span class="pull-left">积分价：<i>150000</i></span><span class="pull-right">销量：<i>1325</i></span>
+               <div class="ps_btn"><a href="#" class="btn btn-warning jybtn">立即购买</a></div>
+             </div>
+           </div>
+           <div class="col-lg-3">
+             <div class="ps_item bg-white">
+               <a href="mall-show.html" class="thumbnail"><img src="images/jfshop-03.jpg" alt="" /></a>
+               <h2>NIKE轻量化跑鞋</h2>
+               <span class="pull-left">积分价：<i>150000</i></span><span class="pull-right">销量：<i>1325</i></span>
+               <div class="ps_btn"><a href="#" class="btn btn-warning jybtn">立即购买</a></div>
+             </div>
+           </div>
+           <div class="col-lg-3">
+             <div class="ps_item bg-white">
+               <a href="mall-show.html" class="thumbnail"><img src="images/jfshop-04.jpg" alt="" /></a>
+               <h2>NIKE轻量化跑鞋</h2>
+               <span class="pull-left">积分价：<i>150000</i></span><span class="pull-right">销量：<i>1325</i></span>
+               <div class="ps_btn"><a href="#" class="btn btn-warning jybtn">立即购买</a></div>
+             </div>
+           </div>
+         </div>
+         </div>
+         </div>
+       </div>
+     </div>
+     <script type="text/javascript">
+      $(function(){
+        var t=$("#text-input");
+        $('#min').attr('disabled',true);
+        $("#add").click(function(){
+          t.val(parseInt(t.val())+1)
+          if(parseInt(t.val())!=1){
+            $("#min").attr("disabled", false);
+          }
+        })
+        $("#min").click(function(){
+          t.val(parseInt(t.val())-1);
+          if(parseInt(t.val())==1){
+            $("#min").attr("disabled", true);
+          }
+        })
+      })
+
+     </script>
+<!-- 积分商城购买 模态框-->
+<div class="modal fade" id="buyModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="close-icon" aria-hidden="true"></span></button>
+        <h4 class="modal-title">订单详情</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal">
+        <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label lh30">地址：</label>
+        <div class="col-sm-10">
+          <div class="radio">
+         <label>
+         <input type="radio" name="blankRadio" id="radioList" value="王国栋" checked><span>王国栋</span>   <span>浙江省宁波市鄞州区 荣安中心A1501</span>   <span>13906604780</span>
+         </label>
+         <label><input type="radio" name="blankRadio" id="radioList" value="张东"><span>张东</span>   <span>浙江省宁波市鄞州区首南街道100号 荣安中心A1501</span>   <span>13906604780</span></label>
+         <a href="#" class="addAddress" data-toggle="modal" data-target="#addAddressModal">添加地址</a>
+         </div>
+        </div>
+        </div>
+       <div class="form-group">
+       <label for="remark" class="col-sm-2 control-label lh30">备注：</label>
+       <div class="col-sm-10">
+       <input type="textarea" class="form-control remark" id="remark">
+       </div>
+      </div>
+      <div class="form-group">
+      <label for="remark" class="col-sm-2 control-label">数量：</label>
+      <div class="col-sm-10">
+        <div class="form-group buyNo form-inline">
+        <input disabled="disabled" class="btn btn-default" id="min" type="button">
+        <input class="form-control" id="text-input" size="3" value="1" type="text">
+        <input name="button" id="add" class="btn btn-default" type="button">
+        <span>剩余<i>1523</i>件</span>
+        </div>
+      </div>
+     </div>
+      <button type="button" class="btn btn-success buyBtn">确认购买</button> <a href="#" class="btn btn-submit" data-toggle="modal" data-target="#orderModal">添加成功</a>
+      </form>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-- 理财社区 添加地址 -->
+<div class="modal fade mg-2" id="addAddressModal" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="close-icon" aria-hidden="true"></span></button>
+        <h4 class="modal-title">添加地址</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal">
+          <table class="table">
+            <tbody>
+              <tr class="userInfo">
+              <td><label for="uaname" class="control-label">姓名：</label></td>
+              <td><input type="text" name="uaname" class="form-control"></td>
+              <td><label for="uaname" class="control-label">电话：</label></td>
+              <td><input type="text" name="ustel" class="form-control"></td></tr>
+              <tr>
+                <td><label for="remark" class="col-sm-2 control-label">地址：</label></td>
+                <td colspan="3"><input type="text" class="form-control" id="remark"></td>
+              </tr>
+              <tr>
+                <td><label for="remark" class="col-sm-2 control-label">备注：</label></td>
+                <td colspan="3"><input type="textarea" class="form-control" id="remark" row="30"></td>
+              </tr>
+              <td>
+                <td colspan="4"><button type="button" class="btn btn-success buyaddBtn">确认添加</button> </td>
+              </td>
+            </tbody>
+          </table>
+      </form>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-- 积分商城 订单成功 -->
+<div class="modal fade mg-2" id="orderModal" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="close-icon" aria-hidden="true"></span></button>
+        <h4 class="modal-title">订单详情</h4>
+      </div>
+      <div class="modal-body">
+        <p class="orderStatus">恭喜！您已购买成功，共消耗1800积分。</p>
+        <p><a href="#" class="btn btn-success confirmBtn" data-dismiss="modal" aria-label="Close">确定</a></p>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+   <div class="container"> <div class="jypager">
+   <ul class="pagination">
+     <li>
+       <a href="#" aria-label="Previous">
+         <span aria-hidden="true">上一页</span>
+       </a>
+     </li>
+     <li><a href="#">1</a></li>
+     <li><a href="#">2</a></li>
+     <li><a href="#">3</a></li>
+     <li><a href="#">.....</a></li>
+     <li><a href="#">4</a></li>
+     <li><a href="#">5</a></li>
+     <li>
+       <a href="#" aria-label="Next">
+         <span aria-hidden="true">下一页</span>
+       </a>
+     </li>
+   </ul>
+   <div class="jydrop">
+   <span>跳转第</span>
+   <div class="btn-group">
+     <select class="form-control">
+   <option>1</option>
+   <option>2</option>
+   <option>3</option>
+   <option>4</option>
+   <option>5</option>
+   </select>
+ </div>页
+ <a href="#" class="btn btn-success">确定</a></div>
+ </div></div>
+   </div>
+    </content>
+    <!--主题区块结束-->
+
+    <!--视频、合作伙伴 开始-->
+    <div class="jypartner">
+      <div class="container">
+        <h1>合作伙伴</h1>
+        <div id="partner-slides" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#partner-slides" data-slide-to="0" class="active"></li>
+            <li data-target="#partner-slides" data-slide-to="1" ></li>
+            <li data-target="#partner-slides" data-slide-to="2" ></li>
+          </ol>
+         <div class="carousel-inner">
+           <div class="item active"><ul>
+             <li><img src="images/partner01.jpg" alt="" /></li>
+             <li><img src="images/partner02.jpg" alt="" /></li>
+             <li><img src="images/partner03.jpg" alt="" /></li>
+           </ul></div>
+           <div class="item"><ul>
+             <li><img src="images/partner02.jpg" alt="" /></li>
+             <li><img src="images/partner01.jpg" alt="" /></li>
+             <li><img src="images/partner03.jpg" alt="" /></li>
+           </ul></div>
+           <div class="item"><ul>
+             <li><img src="images/partner03.jpg" alt="" /></li>
+             <li><img src="images/partner02.jpg" alt="" /></li>
+             <li><img src="images/partner01.jpg" alt="" /></li>
+           </ul></div>
+         </div>
+         <a href="#partner-slides" class="left carousel-control" role="button" data-slide="prev">
+           <span class="glyphicon jyglyphicon-chevron-left" ></span></a>
+          <a href="#partner-slides" class="right carousel-control" role="button" data-slide="next">
+            <span class="glyphicon jyglyphicon-chevron-right" ></span></a>
+        </div>
+      </div>
+    </div><!--视频、合作伙伴 结束-->
+    <footer>
+      <div class="jyfoot">
+      <div class="container" id="jyfoot">
+        <ul>
+          <li class="jy_about">
+            <dl class="">
+             <dt><h1>关于我们</h1></dt>
+             <dd><a href="#">公司简介</a></dd>
+             <dd><a href="#">团队展示</a></dd>
+             <dd><a href="#">公司资质</a></dd>
+            </dl>
+          </li>
+          <li class="jy_news fwd">
+            <dl class="">
+             <dt><h1>新闻中心</h1></dt>
+             <dd><a href="#">媒体报道</a></dd>
+             <dd><a href="#">行业动态</a></dd>
+             <dd><a href="#">公司新闻</a></dd>
+            </dl>
+          </li>
+          <li class="jy_community fwd">
+            <dl class="">
+             <dt><h1>理财社区</h1></dt>
+             <dd><a href="#">理财知识</a></dd>
+             <dd><a href="#">个人问答</a></dd>
+             <dd><a href="#">各类基金</a></dd>
+             <dd><a href="#">车金融</a></dd>
+            </dl>
+          </li>
+          <li class="jy_shoping fwd">
+            <dl class="">
+             <dt><h1>投资商城</h1></dt>
+             <dd><a href="#">理财产品</a></dd>
+             <dd><a href="#">债权列表</a></dd>
+             <dd><a href="#">阳光私募</a></dd>
+             <dd><a href="#">汽车金融</a></dd>
+            </dl>
+          </li>
+          <li class="jy_help fwd">
+            <dl class="">
+             <dt><h1>帮助中心</h1></dt>
+             <dd><a href="#">媒体报道</a></dd>
+             <dd><a href="#">行业动态</a></dd>
+             <dd><a href="#">公司新闻</a></dd>
+            </dl>
+          </li>
+          <li class="jy_social">
+            <span class="pull-left">
+              <h1>关注聚元</h1>
+              <span><a href="#"><img src="images/weibo.png" alt="weibo" /></a></span> <span><a href="#"><img src="images/weixin.png" alt="weixin"></a></span>
+              <p class="website">www.jycf.com</p>
+              <p>官方网址</p>
+            </span>
+            <span class="pull-right">
+              <h1>在线咨询</h1>
+              <span><a href="#"><img src="images/qq.png" alt="qq" /></a></span>
+              <p>全国服务热线</p>
+            </span>
+          </li>
+        </ul>
+        <div class="clearfix"></div>
+        <div class="ft_link">
+          <div class="links"><span>友情链接：<a href="#">聚众资产</a><a href="#">聚元好车</a><a href="#">典当行</a><a href="清道资产"></a><a href="#">国帕租赁</a> <a href="#">超人贷</a> | </span>
+            <span class="jy_ba"><img src="images/ba01.jpg" alt=""> <img src="images/ba02.jpg" alt=""> <img src="images/ba03.jpg" alt=""> <img src="images/ba04.jpg" alt=""></span>
+        </div>
+        </div>
+      </div>
+      <div class="footer">Copyright © 2002-2011 juyuancaifu.com. 聚元财富 版权所有 | 企业代码：201009 | 浙ICP备15013811号</div>
+      </div>
+    </footer><!--底部区块-->
+
+
+    <script>
+    // jQuery(".pull-right").slide({
+    // type:"menu",// 效果类型，针对菜单/导航而引入的参数（默认slide）
+		// titCell:".media", //鼠标触发对象
+		// targetCell:".submedia", //titCell里面包含的要显示/消失的对象
+		// effect:"slideDown", //targetCell下拉效果
+		// delayTime:300 , //效果时间
+		// triggerTime:0, //鼠标延迟触发时间（默认150）
+		// returnDefault:true //鼠标移走后返回默认状态，例如默认频道是“预告片”，鼠标移走后会返回“预告片”（默认false）
+    // });
+    // $('#newsTabs a').hover(function(e){
+    //   $(this).tab('show');
+    // });
+    jQuery(".jybanner").slide({mainCell:".bannerlist ul",autoPlay:true});
+    jQuery(".txtScroll-top").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"top",autoPlay:true,vis:5});
+    jQuery(".menu-left").slide({  type:"menu", titCell:".mainCate", targetCell:".subCate", delayTime:0, triggerTime:0, defaultPlay:false, returnDefault:true });
+    jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true});
+    </script>
+</body>
+</html>

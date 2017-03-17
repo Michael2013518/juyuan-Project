@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>企业定制 - 互联网P2P+O2O金融理财</title>
+    <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="libs/js/jquery.min.js"></script>
+    <script src="libs/js/bootstrap.min.js"></script>
+    <script src="libs/js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+<body>
+   <!--聚元财富 头部 导航 开始-->
+   <header>
+     <div id="investtop">
+      <div class="jytop">
+       <div class="top">
+           <div class="pull-left"><span><a href="index.html">返回金融超市</a></span> <span class="vline">|</span> <span class="fclink"><a href="invest-mall.html">投资商城</a></span> <span class="fclink"><a href="finance-mall.html">融资商城</a></span>
+           <span class="fclink"><a href="#">企业定制</a></span> <span class="fclink"><a href="#">不良资产</a></span> <span class="fclink"><a href="#">积分商城</a></span> <span class="fclink"><a href="#">理财社区</a></span>
+           </div>
+           <div class="pull-right"><span class="media"><a href="#">官方媒体 <span class="caret"></span></a><ul class="submedia">
+               <li><a href="#"><img src="images/weixin-top.png" alt=""></a> <a href="#"><img src="images/weibo-top.png" alt=""></a> <a href="#"><img src="images/qq-top.png" alt=""></a></li>
+               <li><a href="#"><img src="images/qrcode.png" alt="" /></a></li>
+           </ul></span><span class="vline">|</span>全国热线：<span class="telno">400-8161-888</span><span class="vline">|</span>
+           <a href="#" class="btn btn-sm btn-warning" id="bttool">注册</a> <a href="#" class="btn btn-success btn-sm" id="bttool">登录</a>
+           </div>
+       </div>
+       </div>
+       </div>
+    <div class="container">
+      <nav class="navbar">
+     <div class="navbar-header">
+       <a href="#"><img src="images/logo.png" alt="Juyuan Logo"></a> <span class="sitemark"><img src="images/enterprise-icon.png" alt="Site Mark"></span>
+     </div>
+     <div class="collapse navbar-collapse">
+       <ul class="nav navbar-nav navbar-right">
+         <li><a href="enterprise-customized.html">首页</a></li>
+         <li><a href="finance-product-list.html">融资公示</a></li>
+         <li ><a href="case-list.html">成功案例</a></li>
+         <li class="active"><a href="news-center.html">资讯专题</a></li>
+         <li><a href="#">服务介绍</a></li>
+         <li><button type="button" class="btn btn-warning">即刻定制</button></li>
+       </ul>
+     </div><!-- /.navbar-collapse -->
+   </nav>
+    </div>
+
+    <div class="jybanner">
+     <div id="carousel-slide" class="carousel slide" data-ride="carousel">
+         <ol class="carousel-indicators">
+             <li data-target="#carousel-slide" data-slide-to="0" class="active"></li>
+             <li data-target="#carousel-slide" data-slide-to="1"></li>
+             <li data-target="#carousel-slide" data-slide-to="2"></li>
+         </ol>
+         <div class="carousel-inner" role="listbox">
+             <div class="item active">
+                 <img src="images/imbanner_02.jpg" alt="First Slide Image">
+             </div>
+
+             <div class="item">
+                 <img src="images/banner02.jpg" alt="Second Slide Image">
+             </div>
+
+             <div class="item">
+                 <img src="images/banner03.jpg" alt="Third Slide Image">
+             </div>
+         </div>
+     </div>
+    </div>
+   </header><!--聚元财富 头部 导航 结束-->
+    <!--主题区块开始-->
+    <content>
+   <!-- 投资商城开始 -->
+   <div class="news-topic">
+     <div class="container" id="news-topic">
+       <div class="row">
+       <div class="col-lg-9">
+         <div class="news-topic-list">
+           <div class="jy-news-tabs" data-example-id="togglable-tabs">
+           <ul id="newsTabs" class="nav nav-tabs" role="tablist">
+             <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">热点资讯</a></li>
+             <li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">公司消息</a></li>
+             <li role="presentation"><a href="#new" role="tab" id="new-tab" data-toggle="tab" aria-controls="new">理财知识</a></li>
+           </ul>
+           <div id="myTabContent" class="tab-content">
+             <div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
+               <div class="news-item-list">
+                 <ul>
+                   <li><span class="pull-left"><a href="#">国家政策又传来利好消息啦！</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p>
+                   </li>
+                   <li><span class="pull-left"><a href="#">国家政策又传来利好消息啦！</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">国家政策又传来利好消息啦！</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">国家政策又传来利好消息啦！</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">国家政策又传来利好消息啦！</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">国家政策又传来利好消息啦！</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">国家政策又传来利好消息啦！</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">国家政策又传来利好消息啦！</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">国家政策又传来利好消息啦！</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">国家政策又传来利好消息啦！</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                 </ul>
+               </div>
+             </div>
+             <div role="tabpanel" class="tab-pane fade" id="profile" aria-labelledby="profile-tab">
+               <div class="news-item-list">
+                 <ul>
+                   <li><span class="pull-left"><a href="#">国家政策又传来利好消息啦！</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p>
+                   </li>
+                   <li><span class="pull-left"><a href="#">A股大盘指数跌破3000点了，多少人一夜破产。</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">国家政策又传来利好消息啦！</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">A股大盘指数跌破3000点了，多少人一夜破产。</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">国家政策又传来利好消息啦！</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">A股大盘指数跌破3000点了，多少人一夜破产。</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">国家政策又传来利好消息啦！</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">A股大盘指数跌破3000点了，多少人一夜破产。</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">A股大盘指数跌破3000点了，多少人一夜破产。</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">A股大盘指数跌破3000点了，多少人一夜破产。</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                 </ul>
+               </div>
+             </div>
+             <div role="tabpanel" class="tab-pane fade" id="new" aria-labelledby="new-tab">
+               <div class="news-item-list">
+                 <ul>
+                   <li><span class="pull-left"><a href="#">国家政策又传来利好消息啦！</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p>
+                   </li>
+                   <li><span class="pull-left"><a href="#">e租宝出事了！稳定安全才是首要位置。</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">国家政策又传来利好消息啦！</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">e租宝出事了！稳定安全才是首要位置。</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">国家政策又传来利好消息啦！</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">e租宝出事了！稳定安全才是首要位置。</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">国家政策又传来利好消息啦！</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">e租宝出事了！稳定安全才是首要位置。</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">国家政策又传来利好消息啦！</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                   <li><span class="pull-left"><a href="#">e租宝出事了！稳定安全才是首要位置</a></span><span class="pull-right">发布时间：<b>2015-05-23</b></span>
+                   <p>自从上月楼市销量不景气开始，政府就频出利好楼市销售的正常，本月又传来新的利好消息，5月20日开始，贷款买……</p></li>
+                 </ul>
+               </div>
+             </div>
+           </div>
+         </div>
+         </div>
+         <div class="jypager">
+        <ul class="pagination">
+          <li>
+            <a href="#" aria-label="Previous">
+              <span aria-hidden="true">上一页</span>
+            </a>
+          </li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">.....</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li>
+            <a href="#" aria-label="Next">
+              <span aria-hidden="true">下一页</span>
+            </a>
+          </li>
+        </ul>
+        <div class="jydrop">
+        <span>跳转第</span>
+        <div class="btn-group">
+          <select class="form-control">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        </select>
+      </div>页
+      <a href="#" class="btn btn-success">确定</a></div>
+      </div>
+       </div>
+       <div class="col-lg-3">
+         <div class="ad-list">
+           <h1>热门活动</h1>
+           <a href="#"><img src="images/ad01.png" alt=""></a>
+           <h2>4.18随机送5%收益</h2>
+           <a href="#"><img src="images/ad02.png" alt=""></a>
+           <h2>4.18随机送5%收益</h2>
+           <a href="#"><img src="images/ad03.jpg" alt=""></a>
+           <h2>4.18随机送5%收益</h2>
+         </div>
+       </div>
+    </div>
+     </div>
+
+   </div>
+
+
+
+
+    </content>
+    <!--主题区块结束-->
+
+    <!--视频、合作伙伴 开始-->
+    <div class="jypartner">
+      <div class="container">
+        <h1>合作伙伴</h1>
+        <div id="partner-slides" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#partner-slides" data-slide-to="0" class="active"></li>
+            <li data-target="#partner-slides" data-slide-to="1" ></li>
+            <li data-target="#partner-slides" data-slide-to="2" ></li>
+          </ol>
+         <div class="carousel-inner">
+           <div class="item active"><ul>
+             <li><img src="images/partner01.jpg" alt="" /></li>
+             <li><img src="images/partner02.jpg" alt="" /></li>
+             <li><img src="images/partner03.jpg" alt="" /></li>
+           </ul></div>
+           <div class="item"><ul>
+             <li><img src="images/partner02.jpg" alt="" /></li>
+             <li><img src="images/partner01.jpg" alt="" /></li>
+             <li><img src="images/partner03.jpg" alt="" /></li>
+           </ul></div>
+           <div class="item"><ul>
+             <li><img src="images/partner03.jpg" alt="" /></li>
+             <li><img src="images/partner02.jpg" alt="" /></li>
+             <li><img src="images/partner01.jpg" alt="" /></li>
+           </ul></div>
+         </div>
+         <a href="#partner-slides" class="left carousel-control" role="button" data-slide="prev">
+           <span class="glyphicon jyglyphicon-chevron-left" ></span></a>
+          <a href="#partner-slides" class="right carousel-control" role="button" data-slide="next">
+            <span class="glyphicon jyglyphicon-chevron-right" ></span></a>
+        </div>
+      </div>
+    </div><!--视频、合作伙伴 结束-->
+    <footer>
+      <div class="jyfoot">
+      <div class="container" id="jyfoot">
+        <ul>
+          <li class="jy_about">
+            <dl class="">
+             <dt><h1>关于我们</h1></dt>
+             <dd><a href="#">公司简介</a></dd>
+             <dd><a href="#">团队展示</a></dd>
+             <dd><a href="#">公司资质</a></dd>
+            </dl>
+          </li>
+          <li class="jy_news fwd">
+            <dl class="">
+             <dt><h1>新闻中心</h1></dt>
+             <dd><a href="#">媒体报道</a></dd>
+             <dd><a href="#">行业动态</a></dd>
+             <dd><a href="#">公司新闻</a></dd>
+            </dl>
+          </li>
+          <li class="jy_community fwd">
+            <dl class="">
+             <dt><h1>理财社区</h1></dt>
+             <dd><a href="#">理财知识</a></dd>
+             <dd><a href="#">个人问答</a></dd>
+             <dd><a href="#">各类基金</a></dd>
+             <dd><a href="#">车金融</a></dd>
+            </dl>
+          </li>
+          <li class="jy_shoping fwd">
+            <dl class="">
+             <dt><h1>投资商城</h1></dt>
+             <dd><a href="#">理财产品</a></dd>
+             <dd><a href="#">债权列表</a></dd>
+             <dd><a href="#">阳光私募</a></dd>
+             <dd><a href="#">汽车金融</a></dd>
+            </dl>
+          </li>
+          <li class="jy_help fwd">
+            <dl class="">
+             <dt><h1>帮助中心</h1></dt>
+             <dd><a href="#">媒体报道</a></dd>
+             <dd><a href="#">行业动态</a></dd>
+             <dd><a href="#">公司新闻</a></dd>
+            </dl>
+          </li>
+          <li class="jy_social">
+            <span class="pull-left">
+              <h1>关注聚元</h1>
+              <span><a href="#"><img src="images/weibo.png" alt="weibo" /></a></span> <span><a href="#"><img src="images/weixin.png" alt="weixin"></a></span>
+              <p class="website">www.jycf.com</p>
+              <p>官方网址</p>
+            </span>
+            <span class="pull-right">
+              <h1>在线咨询</h1>
+              <span><a href="#"><img src="images/qq.png" alt="qq" /></a></span>
+              <p>全国服务热线</p>
+            </span>
+          </li>
+        </ul>
+        <div class="clearfix"></div>
+        <div class="ft_link">
+          <div class="links"><span>友情链接：<a href="#">聚众资产</a><a href="#">聚元好车</a><a href="#">典当行</a><a href="清道资产"></a><a href="#">国帕租赁</a> <a href="#">超人贷</a> | </span>
+            <span class="jy_ba"><img src="images/ba01.jpg" alt=""> <img src="images/ba02.jpg" alt=""> <img src="images/ba03.jpg" alt=""> <img src="images/ba04.jpg" alt=""></span>
+        </div>
+        </div>
+      </div>
+      <div class="footer">Copyright © 2002-2011 juyuancaifu.com. 聚元财富 版权所有 | 企业代码：201009 | 浙ICP备15013811号</div>
+      </div>
+    </footer><!--底部区块-->
+
+
+    <script>
+    jQuery(".pull-right").slide({
+    type:"menu",// 效果类型，针对菜单/导航而引入的参数（默认slide）
+		titCell:".media", //鼠标触发对象
+		targetCell:".submedia", //titCell里面包含的要显示/消失的对象
+		effect:"slideDown", //targetCell下拉效果
+		delayTime:300 , //效果时间
+		triggerTime:0, //鼠标延迟触发时间（默认150）
+		returnDefault:true //鼠标移走后返回默认状态，例如默认频道是“预告片”，鼠标移走后会返回“预告片”（默认false）
+    });
+    $('#newsTabs a').hover(function(e){
+      $(this).tab('show');
+    });
+    jQuery(".jybanner").slide({mainCell:".bannerlist ul",autoPlay:true});
+    jQuery(".txtScroll-top").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"top",autoPlay:true,vis:5});
+    jQuery(".menu-left").slide({  type:"menu", titCell:".mainCate", targetCell:".subCate", delayTime:0, triggerTime:0, defaultPlay:false, returnDefault:true });
+    jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true});
+    </script>
+</body>
+</html>

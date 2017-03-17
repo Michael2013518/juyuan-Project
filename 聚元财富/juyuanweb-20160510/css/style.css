@@ -1,0 +1,1355 @@
+/*
+* Juyuancaifu's Style CSS v1.0 created by Michael
+* http://www.juyuancaifu.com
+*/
+/*---顶部样式---*/
+.jytop{
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #f0f0f0;
+    height: 36px;
+}
+.jytop .top, .jynav, .jybanner .menulist, .jymarket{
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 36px;
+    font-size: 14px;
+}
+.jytop .vline{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 1px;
+    line-height: 16px;
+    color: #dcdcdc;
+}
+.jytop .telno{
+    color: #ff7800;
+    font-weight: bold;
+}
+.jytop .media{
+    position: relative;
+    z-index: 1;
+}
+.jytop .media .submedia{
+    display: none;
+    position: absolute;
+    width: 80px;
+    left: 0;
+    top:27px;
+    padding: 5px 5px;
+    background-color: #f5f5f5;
+
+}
+.jytop .media .submedia li{
+    zoom:1;
+    border-bottom: 1px dashed #ddd;
+    line-height: 25px;
+}
+.jytop .fclink a, .jytop .media a{
+    color: #333333;
+}
+.jytop .media a:hover .caret{
+  -webkit-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  transform: rotate(180deg);
+  color: fe7902;
+}
+.jytop .fclink a:hover, .jytop .media a:hover{
+    text-decoration: none;
+    color: #ff7800;
+}
+.jytop .top #bttool{
+    width: 60px;
+    height: 28px;
+    font-size: 14px;
+    /*margin-top: -4px;*/
+    line-height: 26px;
+    padding: 0px;
+    margin-top: -4px;
+    display: inline-block;
+}
+.jytop .top .btn-warning{
+  /*color: #ff7900;*/
+  background: #ff7900;
+}
+.jytop .top .btn-warning:hover{
+  background-color: #ff7800;
+  border-color: #ff7800;
+}
+/*
+*Logo标示 & 导航样式
+*/
+.jynav{
+    height: 100px;
+    position: relative;
+}
+.jynav .jylogo img{
+    margin-top: 20px;
+
+}
+.jynav .navmenu{
+    margin-top: 35px;
+    padding: 0;
+}
+.jynav .navmenu li{
+    float: left;
+    line-height: 45px;
+    height: 45px;
+    padding:0px 20px;
+}
+.jynav .navmenu ul li .active{
+    border-bottom: 2px solid #ff7800;
+}
+.jynav .navmenu li a{
+    color: #333333;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+.jynav .navmenu li a:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+.jynav .navmenu .hotgif{
+    position: absolute;
+    top: 30px;
+    right: 210px;
+    width: 24px;
+    height: 16px;
+    background: url(../images/hot.gif) no-repeat;
+}
+.navbar{
+  margin-top: 10px;
+}
+.navbar-nav{
+  margin-top: 20px;
+}
+.navbar-nav .active a{
+  border-bottom: 2px solid #ff7800;
+  font-weight: bold;
+}
+.navbar-nav > li > a{
+  color: #333333;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.nav > li > a:hover{
+  border-bottom: 2px solid #ff7800;
+  background-color: #fff;
+  font-weight: bold;
+}
+.navbar-nav .hotgif{
+    position: absolute;
+    top: -10px;
+    right: 8px;
+    width: 24px;
+    height: 16px;
+    background: url(../images/hot.gif) no-repeat;
+}
+
+/*---
+*滚动Banner样式---
+*/
+.jybanner{
+    width: 100%;
+    height: 460px;
+    background-color: #5139b3;
+    position: relative;
+    overflow: hidden;
+}
+.jybanner .menulist{
+    position: relative;
+    top: -440px;
+/*
+    position:absolute;
+    top: 30px;
+    left: 0px;
+*/
+}
+.carousel-indicators li{
+/*    opacity: 0.6;*/
+    width: 14px;
+    height: 14px;
+}
+
+.carousel-indicators .active{
+    width:30px;
+    height: 14px;
+    opacity: 1,
+}
+
+/*
+*投资商城，融资商城，企业定制，不良资产，积分商城样式
+*/
+.jybanner .menulist .menu-left{
+    float: left;
+    width: 220px;
+    background-color: #fff;
+    height: 420px;
+    /*overflow: hidden;*/
+    position: relative;
+}
+.jybanner .menulist .menu-right{
+    float: right;
+    width: 220px;
+    background-color: #fff;
+    height: 420px;
+    overflow: hidden;
+}
+.menu-left .invest-shop, .menu-left .trade-shop, .menu-left .enterp-customiz, .menu-left .none-perform{
+    width: 100%;
+    height: 85px;
+    border-bottom: 1px dashed #dcdcdc;
+    position: relative;
+}
+.menu-left #invest-content, .menu-left #trade-content, .menu-left #enterp-content, .menu-left #perform-content, .menu-left #mark-content{
+    padding:10px 20px;
+    position: relative;
+}
+.menu-left #invest-content h1{
+    padding-left: 35px;
+    height: 25px;
+    line-height: 25px;
+    background:url(../images/icon-s.png) no-repeat 0px -343px;
+    overflow: hidden;
+    font-size: 16px;
+}
+.menu-left #trade-content h1{
+    padding-left: 35px;
+    height: 25px;
+    line-height: 25px;
+    background:url(../images/icon-s.png) no-repeat 0px -368px;
+    overflow: hidden;
+    font-size: 16px;
+}
+.menu-left .enterp-customiz h1{
+    padding-left: 35px;
+    height: 25px;
+    line-height: 25px;
+    background:url(../images/icon-s.png) no-repeat 0px -390px;
+    overflow: hidden;
+    font-size: 16px;
+}
+.menu-left .none-perform h1{
+    padding-left: 35px;
+    height: 25px;
+    line-height: 25px;
+    background:url(../images/icon-s.png) no-repeat 0px -435px;
+    overflow: hidden;
+    font-size: 16px;
+}
+.menu-left .mark-shop h1{
+    padding-left: 35px;
+    height: 25px;
+    line-height: 25px;
+    background:url(../images/icon-s.png) no-repeat 0px -413px;
+    overflow: hidden;
+    font-size: 16px;
+}
+.menu-left #invest-content h1 .arrow, .menu-left #enterp-content h1 .arrow{
+    float: right;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #bab5ad;
+    border-left: 2px solid #bab5ad;
+    background-color: rgba(0,0,0,0);
+    font-size: 0px;
+    display: inline-block;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    margin-top: 8px;
+    margin-right: 5px;
+    cursor:pointer;
+}
+.menu-left #invest-content span a, .menu-left .trade-shop span a, .menu-left .enterp-customiz span a, .menu-left .none-perform span a, .menu-left .mark-shop span a{
+    padding-left: 30px;
+    display: inline-block;
+    color: #999999;
+    text-decoration: none;
+}
+.menu-left #invest-content span a:hover, .menu-left .trade-shop span a:hover, .menu-left .enterp-customiz span a:hover, .menu-left .none-perform span a:hover, .menu-left .mark-shop span a:hover{
+    color: #ff7800;
+    text-decoration: none;;
+}
+/*
+*右侧菜单，暂时隐藏
+*/
+.menu-left #invest-content .subCate{
+    width: 202px;
+    background: #fff;
+    padding: 20px 20px;
+    position: absolute;
+    left: 220px;
+    top: 0px;
+    height: 420px;
+    border-left: 1px solid #f0f0f0;
+}
+.menu-left .enterp-customiz .subCate{
+    width: 202px;
+    background: #fff;
+    padding: 20px 20px;
+    position: absolute;
+    left: 220px;
+    top: -170px;
+    height: 420px;
+    border-left: 1px solid #f0f0f0;
+}
+.menu-left #invest-content .subCate ul li, .menu-left .enterp-customiz .subCate ul li{
+    width: 80px;
+    float: left;
+    line-height: 25px;
+    height: 25px;
+    background: url(../images/hdot.png) no-repeat 0% 50%;
+    padding-left: 10px;
+}
+.menu-left #invest-content .subCate ul li a, .menu-left .enterp-customiz .subCate ul li a{
+    color: #999;
+    text-decoration: none;
+}
+.menu-left #invest-content .subCate ul li a:hover, .menu-left .enterp-customiz .subCate ul li a:hover{
+    color: #ff7800;
+}
+.menu-left .on {
+	background:#f0f0f0;
+  height: 100%;
+  /*padding-left: 10px;*/
+}
+.menu-left .on h3 a, .menu-left .on p a {
+	color:#fff;
+}
+.menu-left .on .subCate {
+	display:block !important;
+}
+/*
+*右侧最新金牌项目
+*/
+.menu-right .brand-project{
+    width: 100%;
+    padding: 20px 20px;
+    position: relative;
+    height: 358px;
+}
+.menu-right .brand-project h1{
+  text-align: center;
+  background: url(../images/line.png) no-repeat 50% 50%;
+  font-size: 16px;
+  color: #333333;
+}
+.menu-right .project-list h2{
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  background: url(../images/lineframe.png) no-repeat 50% 50%;
+  height: 38px;
+  line-height: 38px;
+}
+.menu-right .project-list .project-benefit, .menu-right .project-list .project_amount{
+  padding: 25px 40px 0px 40px;
+  text-align: center;
+}
+.menu-right .project-list .project-benefit span, .menu-right .project-list .project_amount span{
+  display: block;
+}
+.menu-right .project-list .project-num{
+  color: #ff7800;
+  font-size: 30px;
+}
+.menu-right .project-list .project-num i{
+  font-size: 14px;
+}
+.brand-project .left{
+  position: absolute;
+  top: 50%;
+  left:10px;
+  z-index: 5;
+  display: inline-block;
+}
+.brand-project .right{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  display: inline-block;
+}
+.brand-project .glyphicon-left{
+ color: #999;
+ font-size: 15px;
+ background: url(../images/icon-s.png) no-repeat 0px 0px;
+ width: 10px;
+ height: 25px;
+}
+.brand-project .glyphicon-right{
+ color: #999;
+ font-size: 15px;
+ background: url(../images/icon-s.png) no-repeat 0px -30px;
+ width: 10px;
+ height: 25px;
+}
+.brand-project .btn-warning{
+  border-color: #ff7800;
+  background-color: #ff7800;
+  width: 100%;
+}
+.brand-project .btn-warning:hover{
+  border-color: #f27200;
+  background-color: #f27200;
+  }
+.menu-right .community-ask{
+  width: 100%;
+  height: 60px;
+  border-top: 1px dashed #dcdcdc;
+  background-color: #f9f9f9;
+  padding: 0px 20px;
+}
+.menu-right .community-ask ul li{
+ width:100%;
+ height: 30px;
+ overflow: hidden;
+ line-height: 30px;
+ font-size: 12px;
+}
+.menu-right .community-ask ul li img{
+  margin-top: 5px;
+  float: left;
+}
+.menu-right .community-ask .title{
+ margin:0px 5px;
+ font-weight: bold;
+}
+.menu-right .community-ask a{
+  color: #666666;
+  text-decoration: none;
+}
+.menu-right .community-ask a:hover{
+  color: #f27200;
+}
+
+/*
+*平台宣传
+*/
+.jymarket span{
+  text-align: left;
+  display: inline-block;
+  width: 396px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 50px;
+  font-size: 16px;
+  font-weight: bold;
+  color:#666666;
+}
+.jymarket img{
+  float: left;
+  margin-right: 10px;
+}
+.jymarket .m1, .jymarket .m2{
+  background: url(../images/line-v.png) no-repeat 100% 50%;
+}
+/*
+*金牌投资顾问，平台公告，媒体报道，行业动态
+*/
+.container{
+  width: 1200px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.jyconsult{
+  width: 288px;
+  height: 270px;
+  background-color: #fcfcfc;
+  border: 1px solid #f0f0f0;
+  padding:20px 5px;
+  text-align: center;
+}
+.jyconsult h1{
+  text-align: center;
+  background: url(../images/honorbg.png) no-repeat 50% 45%;
+  height: 38px;
+  line-height: 38px;
+  color: #fff;
+  font-size: 16px;
+}
+.jyconsult h2{
+  line-height: 25px;
+  height: 25px;
+  font-size: 16px;
+}
+.jyconsult p{
+  font-size: 14px;
+  color: #999999;
+}
+.jyconsult .carousel-inner > .item > img{
+  display:inline-block;
+  margin-top: 10px;
+  margin-bottom:15px;
+  width: 130px;
+  height: 130px;
+
+}
+.jyconsult .carousel-control.left, .jyconsult .carousel-control.right{
+  background-image: none;
+}
+.jyconsult .jyglyphicon-left{
+  width: 30px;
+  height: 30px;
+  background: url(../images/icon-s.png) no-repeat 0px -55px;
+  position: absolute;
+  top: 45%;
+  z-index: 5;
+}
+.jyconsult .jyglyphicon-right{
+  width: 30px;
+  height: 30px;
+  background: url(../images/icon-s.png) no-repeat 0px -82px;
+  position: absolute;
+  top: 45%;
+  z-index: 5;
+}
+
+.jynews{
+  width: 896px;
+  height: 270px;
+  background-color: #fcfcfc;
+  border: 1px solid #f0f0f0;
+  padding: 0px 20px 25px 20px;
+}
+.jynews .nav-tabs > li.active > a{
+  background-color: #fcfcfc;
+  border-top:0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid #ff7800;
+  color: #666;
+}
+.jynews .nav-tabs li a{
+  color: #666;
+}
+.jynews .tab-content .txtScroll-top{
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.jynews .tab-content .infoList{
+  overflow: hidden;
+}
+.jynews .tab-content .infoList li{
+  line-height: 40px;
+  height: 40px;
+  background:url(../images/dot.png) no-repeat;
+  padding-left: 10px;
+}
+.jynews .tab-content .infoList li a{
+  color: #999;
+  font-size: 14px;
+}
+.txtScroll-top .hd{
+  overflow:hidden;
+  height:200px;
+  padding:0 10px;
+  position: absolute;
+  right: 10px;
+  top: 10%;}
+.txtScroll-top .hd .prev,.txtScroll-top .hd .next{
+  display:block;
+  width:70px;
+  height:32px; /*float:right;*/
+  margin-right:5px; margin-top:10px;
+  overflow:hidden;
+  cursor:pointer;
+  background:url("../images/icon-s.png") no-repeat 0 -282px;
+   }
+.txtScroll-top .hd .next{
+  background:url("../images/icon-s.png") no-repeat 0 -313px;
+  }
+.txtScroll-top .hd ul{
+  float:right;
+  overflow:hidden;
+  zoom:1;
+  margin-top:10px;
+  padding: 0px 20px;
+  }
+.txtScroll-top .hd ul li{ /*float:left; */
+  width:9px;
+  height:9px;
+  overflow:hidden;
+  margin-right:5px;
+  text-indent:-999px;
+  cursor:pointer;
+  background:url("../images/icoCircle.gif") 0 -9px no-repeat;
+  margin-bottom: 15px; }
+.txtScroll-top .hd ul li.on{ background-position:0 0; }
+.txtScroll-top .hd .hd-btn{
+  float: right;
+  display: inline-block;
+  position: relative;
+  top: 90px;
+  left: 50%;
+}
+
+/*投资商城样式*/
+.investment-shop, .trading_shop, .none_performing, .fn_community{
+  width: 100%;
+  background-color: #f9f9f9;
+  /*height: 600px;*/
+  margin-top: 60px;
+}
+#investment-shop, #trading_shop, #enterprise-customiz, #none_performing, #point-shopping, #fn_community{
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+#investment-shop h1, #trading_shop h1, #enterprise-customiz h1, #none_performing h1, #point-shopping h1, #fn_community h1{
+  text-align: center;
+  font-size: 24px;
+  line-height: 60px;
+  height: 60px;
+}
+#investment-shop .inv-description, #jycounter .counter_title, #trading_shop .ts_description, #enterprise-customiz .ec_description , #none_performing .np_description, #point-shopping .ps_description, #fn_community .fn_description{
+  width: 630px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 25px;
+  line-height: 25px;
+  background: url(../images/line-h.png) no-repeat 50% 50%;
+  text-align: center;
+  font-size: 14px;
+  color: #ff7800;
+  display: block;
+}
+#investment-shop .fp_title{
+  display: block;
+  background: url(../images/icon-header.png) no-repeat 0px 0px;
+  height: 24px;
+  width: 140px;
+  margin: 0 auto;
+  margin-top: 45px;
+  margin-bottom: 25px;
+}
+.investment-shop .jypay{
+  width: 100%;
+  height: 300px;
+  border-top: 2px solid #ff7800;
+  border-left: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  background-color: #fff;
+}
+.investment-shop .jypay h1{
+  border-bottom: 1px solid #f5f5f5;
+}
+.investment-shop .jypay .jypay-profit{
+  border-bottom: 1px solid #f5f5f5;
+  padding: 25px 15px;
+  height: 112px;
+}
+.investment-shop .jypay .jypay-profit .pf h3{
+ font-size: 30px;
+ color: #ff7800;
+ height: 40px;
+ line-height: 40px;
+}
+.investment-shop .jypay .jypay-profit .pf p, .investment-shop .jypay .jypay-profit .rw p{
+  line-height: 30px;
+  height: 30px;
+  color: #666666;
+}
+.investment-shop .jypay .jypay-profit .pf h3 i{
+  font-size: 16px;
+}
+.investment-shop .jypay .jypay-profit .rw h3{
+ font-size: 30px;
+ color: #53c781;
+ height: 40px;
+ line-height: 40px;
+}
+.investment-shop .jypay .jypay-profit .rw h3 i{
+  font-size: 16px;
+}
+.investment-shop .jypay .jynum{
+  padding: 25px 15px;
+  color: #666666;
+}
+.jybtn{
+ background-color: #ff7900;
+ border-color: #ff7900;
+ width: 100%;
+ height: 40px;
+ line-height: 25px;
+ font-size: 16px;
+}
+.jybtn:hover{
+  background-color: #f17200;
+  border-color: #f17200;
+}
+.investment-shop .jypay .jyinquery{
+  width: 100%;
+  padding: 20px 15px;
+  display: inline-block;
+  text-align: center;
+}
+#investment-shop .jymore, #trading_shop .jymore, #none_performing .jymore, #enterprise-customiz .jymore, #point-shopping .jymore, #fn_community .jymore{
+  margin-top: 40px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+#investment-shop .jymore i{
+  font-weight: normal;
+}
+#investment-shop .jymore .btnmore, #trading_shop .jymore .btnmore, #none_performing .jymore .btnmore, #enterprise-customiz .jymore .btnmore, #point-shopping .jymore .btnmore, #fn_community .jymore .btnmore{
+  background-color: #f9f9f9;
+  border: 2px solid #ff7900;
+  border-radius: 30px;
+  color: #ff7900;
+  width: 160px;
+  height: 50px;
+  line-height: 35px;
+  font-size: 16px;
+}
+#investment-shop .jymore .btnmore:hover, #trading_shop .jymore .btnmore:hover ,#none_performing .jymore .btnmore:hover, #enterprise-customiz .jymore .btnmore:hover, #point-shopping .jymore .btnmore:hover, #fn_community .jymore .btnmore:hover{
+  background-color: #ff7800;
+  border-color: #ff7800;
+  color: #fff;
+}
+.investment-shop .pp_title{
+  display: block;
+  margin: 0 auto;
+  background: url(../images/icon-header.png) -144px 0px;
+  width: 142px;
+  height: 23px;
+  margin-bottom: 25px;
+}
+#su_private_project{
+  border: 1px solid #f0f0f0;
+  height: 300px;
+  background-color: #fff;
+}
+.pp-enterprise-logo{
+  width: 370px;
+  height: 100%;
+}
+.pp-enterprise-logo img{
+  display: block;
+  margin: 108px 40px;
+}
+.pp-enterprise-list{
+  width: 820px;
+  height: 100%;
+}
+.pp-enterprise-list ul li{
+  width: 820px;
+  height: 150px;
+  padding: 40px 20px 40px 30px;;
+  text-align: center;
+  line-height: 25px;
+}
+.pp-enterprise-list ul li .pp_num{
+  width: 205px;
+  margin-top: 30px;
+  background: url(../images/pp-line-v.png) no-repeat 0% 70%;
+  /*border-left: 1px solid #dcdcdc;*/
+}
+.pp-enterprise-list ul li .pp_month{
+  width: 216px;
+  /*margin-top: 10px;*/
+  background: url(../images/pp-line-v.png) no-repeat 0% 70%;
+}
+.pp-enterprise-list ul li b{
+  color: #ff7800;
+  font-size: 30px;
+  background: url(../images/gline_h.png) no-repeat 0% 50%;
+  line-height: 40px;
+}
+.pp-enterprise-list ul li i{
+  font-size: 16px;
+}
+.pp-enterprise-list ul li .pp_amount{
+  width: 210px;
+  /*margin-top: 10px;*/
+  background: url(../images/pp-line-v.png) no-repeat 0% 70%;
+
+}
+.pp-enterprise-list ul li .pp_btn{
+  width: 120px;
+  background: url(../images/pp-line-v.png) no-repeat 0% 70%;
+  margin-top: 20px;
+  text-align: center;
+  padding-left: 30px;
+}
+.pp-enterprise-list ul li span{
+  float: left;
+  display: block;
+}
+/*汽车金融样式*/
+.investment-shop .cf_title{
+  display: block;
+  margin: 0 auto;
+  background: url(../images/icon-header.png) 0px -24px;
+  width: 142px;
+  height: 23px;
+  margin-bottom: 25px;
+}
+.thumbnail{
+  border-radius: 0px;
+}
+#car_finance .cf_item{
+  width: 100%;
+  border: 1px solid #f0f0f0;
+  background-color: #fff;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#car_finance .cf_content{
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+#car_finance .cf_content span{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 25px;
+  color: #666666;
+  font-size: 14px;
+}
+#car_finance .cf_content .cf_btn{
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+#car_finance .cf_content .cf_btn .btn{
+  width: 100%;
+}
+#car_finance .thumbnail{
+  padding: 0px;
+  margin-bottom: 10px;
+}
+#car_finance h2{
+  text-align: center;
+  color: #333333;
+  /*width: 80%;*/
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px dashed #dcdcdc;
+  font-weight: bold;
+}
+#car_finance h2 a{
+  color: #333333;
+  text-decoration: none;
+}
+#car_finance h2 a:hover{
+  color: #ff7800;
+}
+/*网贷计算器样式*/
+
+#jycounter .counter_title{
+  line-height: 40px;
+  height: 40px;
+}
+#jycounter .counter_title h2{
+  font-size: 24px;
+  color: #333333;
+  margin-top: 50px;
+}
+#jycounter .counter_header{
+  height: 50px;
+  line-height: 50px;
+  color: #999999;
+}
+#jycounter .counter_header .jych{
+  line-height: 50px;
+  display: inline-block;
+  background: url(../images/calculator.png) no-repeat 0% 50%;
+  padding-left: 40px;
+}
+#jycounter .counter_header .form-control{
+  border-radius: 0px;
+  border-right:0px;
+  background-color: #fcfcfc;
+}
+#jycounter .counter_header .input-group{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#jycounter .counter_header .input-group-addon{
+  border-radius: 0px;
+  background-color: #fcfcfc;
+}
+#jycounter .counter_header .jych-btn{
+  width: 130px;
+  display: inline-block;
+  text-align: right;
+  margin-left: 40
+}
+
+/*融资商城样式*/
+#trading_shop .ts_title{
+  display: block;
+  background: url(../images/icon-header.png) no-repeat -145px -24px;
+  height: 24px;
+  width: 140px;
+  margin: 0 auto;
+  margin-top: 45px;
+  margin-bottom: 25px;
+}
+#trading_shop .fs-content{
+  width: 100%;
+  background-color: #fff;
+  border: 6px solid #f0f0f0;
+  padding-bottom: 50px;
+}
+#trading_shop .ts-content{
+  border: 6px solid #f0f0f0;
+  color: #666666;
+  background-color: #fff;
+}
+#trading_shop .ts-content h2{
+  text-align: center;
+  line-height: 20px;
+  height: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+#trading_shop .ts-content .ts_item{
+  height: 70px;
+  padding-top: 10px;
+  font-size: 16px;
+  border-top: 1px solid #f0f0f0;
+  background: #fcfcfc url(../images/ts_line_v.png) no-repeat 50% 50%;
+}
+#trading_shop .ts-content .ts-num{
+  border-top: 1px solid #f0f0f0;
+  padding 20px 0px 20px;
+}
+#trading_shop .ts-content .pull-left, #trading_shop .ts-content .pull-right{
+  text-align: center;
+  width: 50%;
+  line-height: 25px;
+  /*border-right: 1px solid #f0f0f0;*/
+}
+#trading_shop .ts-content .pull-left p{
+  font-size: 24px;
+  color: #ff7800;
+}
+#trading_shop .ts-content .pull-left i{
+  font-size: 16px;
+}
+#trading_shop .ts-content .pull-right p{
+  font-size: 24px;
+  color: #53c781;
+}
+#trading_shop .ts-content .pull-right i{
+  font-size: 16px;
+}
+#trading_shop .ts-content .thumbnail{
+  border-radius: 0px;
+  border: 0px;
+}
+/*企业定制样式*/
+
+#enterprise-customiz .ec_title {
+    display: block;
+    background: url(../images/icon-header.png) no-repeat 0px -48px;
+    height: 24px;
+    width: 140px;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+#enterprise-customiz .ec_table{
+  width: 100%;
+}
+#enterprise-customiz .ec_table .ec_tr{
+  height: 120px;
+  background-color: #fcfcfc;
+}
+#enterprise-customiz .ec_table .ec_name{
+   width: 240px;
+   vertical-align: middle;
+   font-size: 18px;
+   color: #666666;
+   padding-left: 30px;
+   background: url(../images/hot.png) no-repeat 0% 0%;
+
+}
+#enterprise-customiz .ec_table .table-hover>tbody>tr:hover {
+	background-color:#f9f9f9;
+}
+#enterprise-customiz .ec_table .ec_project, #enterprise-customiz .ec_table .ec_project table{
+   width: 670px;
+}
+#enterprise-customiz .ec_table .ec_project table tr{
+  height: 60px;
+  text-align: center;
+}
+#enterprise-customiz .ec_table .ec_project table tr td{
+  vertical-align: middle;
+}
+#enterprise-customiz .ec_table .ec_project table .project_name{
+  width: 140px;
+  color: #999999;
+}
+#enterprise-customiz .ec_table .ec_project table .project_type{
+  width: 120px;
+  color: #999999;
+}
+#enterprise-customiz .ec_table .ec_project table .project_style{
+  width: 100px;
+  color: #999999;
+}
+#enterprise-customiz .ec_table .ec_project table .project_mount{
+  width: 100px;
+  color: #999999;
+}
+#enterprise-customiz .ec_table .ec_project table .project_date{
+  color: #999999;
+}
+#enterprise-customiz .ec_table .ec_project table .ec_color, #enterprise-customiz .ec_table .ec_btn i{
+  color: #ff7800;
+}
+#enterprise-customiz .ec_table .ec_btn{
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  line-height: 30px;
+}
+#enterprise-customiz .ec_table .ec_btn .btn-warning {
+    color: #fff;
+    background-color: #ff7900;
+    border-color: #ff7900;
+    margin-right: 10px;
+}
+#enterprise-customiz .ec_table .ec_btn .btn-warning:hover {
+    color: #fff;
+    background-color:  #f17200;
+    border-color: #f17200;
+}
+#enterprise-customiz .ec_table .ec_btn p{
+  color: #999999;
+}
+/*不良资产样式*/
+#none_performing .np_title {
+    display: block;
+    background: url(../images/icon-header.png) no-repeat -145px -48px;
+    height: 24px;
+    width: 140px;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+#none_performing .np_list{
+  width: 100%;
+  background-color: #fff;
+}
+#none_performing .np_list h1{
+  text-align: left;
+  font-size: 20px;
+  color: #666666;
+}
+#none_performing .np_list h1 i{
+  color: #53c781;
+}
+#none_performing .np_list li{
+  height: 140px;
+  line-height: 30px;
+  border-bottom: 1px solid #f0f0f0;
+}
+#none_performing .np_list li span{
+  color: #666666;
+  display: block;
+  float: left;
+  width: 200px;
+  padding-left: 30px;
+  background: url(../images/np_line-v.png) no-repeat 100% 50%;
+}
+#none_performing .np_list .np_amount>p{
+  font-weight:lighter;
+  font-size: 25px;
+  color: #ff7800;
+}
+#none_performing .np_list .np_amount>p>i{
+  font-size: 16px;
+}
+#none_performing .np_list li:hover{
+  background-color: #fcfcfc;
+}
+#none_performing .np_list li span>p{
+  font-weight: bold;
+}
+#none_performing .np_btn{
+  text-align: center;
+  margin-top: 10px;
+}
+#none_performing .np_btn .btn{
+  width: 120px;
+  height: 40px;
+  line-height: 25px;
+}
+/*积分商城样式*/
+#point-shopping .ps_title {
+    display: block;
+    background: url(../images/icon-header.png) no-repeat -145px -48px;
+    height: 24px;
+    width: 140px;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+#point-shopping .ps_item{
+  width: 100%;
+  border: 1px solid #f0f0f0;
+  padding: 9px;
+}
+#point-shopping .ps_item .thumbnail{
+  padding: 0px;
+  border: 0px solid #ddd;
+}
+#point-shopping .ps_item h2{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+  border-bottom: 1px dashed #dcdcdc;
+}
+#point-shopping .ps_item .pull-left, #point-shopping .ps_item .pull-right{
+  margin-top: 10px;
+  display: block;
+  font-size: 16px;
+  color: #333333;
+  line-height: 20px;
+}
+#point-shopping .ps_item .pull-left i{
+  color: #53c781;
+}
+#point-shopping .ps_item .pull-right i{
+  color: #999999;
+}
+#point-shopping .ps_item .ps_btn{
+  margin-top: 40px;
+}
+/*理财社区样式*/
+#fn_community .fn_list{
+  width: 100%;
+  border: 1px solid #f0f0f0;
+  margin-top: 40px;
+  background-color: #fff;
+}
+#fn_community .fn_list li{
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 16px;
+}
+#fn_community .fn_list li .fn_title{
+  width: 505px;
+  display: inline-block;
+  /*overflow: hidden;*/
+}
+#fn_community .fn_list li a{
+  text-decoration: none;
+  color: #333333;
+}
+#fn_community .fn_list li a:hover{
+  color: #ff7800;
+}
+#fn_community .fn_list li>span>i{
+  color: #ff7800;
+}
+#fn_community .fn_list li .fn_title b{
+  color: #53c781;
+}
+#fn_community .fn_list li .fn_hot{
+  margin: 0px 40px;
+  display: inline-block;
+  width: 110px;
+}
+#fn_community .fn_list li b{
+  color: #999999;
+}
+#fn_community .fn_ranking{
+  width: 100%;
+  border: 1px solid #f0f0f0;
+  background-color: #fff;
+  margin-top: 40px;
+  padding: 5px 20px 5px 20px;
+}
+#fn_community .fn_ranking img{
+  float: left;
+  margin-top: 5px;
+}
+#fn_community .fn_ranking h1{
+  font-size:16px ;
+  height: 40px;
+  line-height: 40px;
+  font-weight: bold;
+}
+#fn_community .fn_ranking li{
+  height: 50px;
+  line-height: 50px;
+  border-top: 1px dashed #f0f0f0;
+}
+#fn_community .fn_ranking li>span{
+  display: inline-block;
+}
+#fn_community .fn_ranking li .pull-right{
+  width: 70px;
+  background: url(../images/fire.png) no-repeat 0% 50%;
+  padding-left: 20px;
+}
+#fn_community .fn_ranking li a{
+  color: #666666;
+  display: inline-block;
+  margin-left: 20px;
+}
+#fn_community .fn_ranking li a:hover{
+  color: #ff7800;
+  text-decoration: none;
+}
+}
+#fn_community .fn_ranking li>span>img{
+  float: left;
+  margin-top: 10px;
+  display: block;
+}
+.jyvideo{
+  margin-top: 60px;
+}
+.jypartner{
+  margin-top: 40px;
+}
+.jypartner h1{
+  background: url(../images/line-h.png) no-repeat 50% 50%;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+.jypartner #partner-slides{
+  width: 100%;
+  height: 150px;
+}
+.jypartner #partner-slides ul li{
+  float: left;
+  width: 400px;
+  text-align: center;
+}
+.jypartner #partner-slides .carousel-inner{
+  margin-top:30px;
+}
+.jypartner #partner-slides .carousel-control.left, .jypartner #partner-slides .carousel-control.right{
+  background-image: none;
+}
+.jypartner #partner-slides .carousel-indicators li{
+  background-color: #dcdcdc;
+}
+.jypartner #partner-slides .carousel-indicators .active{
+  width: 14px;
+  height: 14px;
+  border: 2px solid #ff7d0b;
+  background-color: #fff;
+}
+.jypartner .jyglyphicon-chevron-left {
+    width: 30px;
+    height: 30px;
+    background: url(../images/lrow.png) no-repeat 50% 50%;
+    position: absolute;
+    top: 10%;
+    z-index: 5;
+    left: 10px;
+}
+.jypartner .jyglyphicon-chevron-right{
+  width: 30px;
+  height: 30px;
+  background: url(../images/rrow.png) no-repeat 50% 50%;
+  position: absolute;
+  top: 10%;
+  z-index: 5;
+  right: 10px;
+}
+/*底部内容开始*/
+
+.jyfoot{
+  width: 100%;
+  height: 350px;
+  background-color: #333333;
+}
+#jyfoot{
+  padding: 60px 0px 45px;
+}
+#jyfoot ul li{
+  float: left;
+  background: url(../images/fline.png) no-repeat 100% 0%;
+}
+#jyfoot .jy_about{
+  width: 130px;
+}
+#jyfoot .jy_social{
+  width: 348px;
+  padding-left: 50px;
+}
+#jyfoot .fwd{
+  width: 180px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#jyfoot .jy_social{
+ background-image: none;
+}
+#jyfoot .jy_social .pull-left .website{
+ color: #fff;
+}
+#jyfoot .jy_social .pull-left p, #jyfoot .jy_social .pull-right p{
+  color: #999999;
+  line-height: 25px;
+}
+.jyfoot ul li dl dt, .jy_social h1{
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+}
+.jyfoot ul li dl dt h1, .jy_social h1{
+  font-size: 20px;
+  line-height: 25px;
+}
+.jyfoot ul li dl dd{
+  line-height: 30px;
+  height: 30px;
+}
+.jyfoot ul li dl dd a, .jyfoot .ft_link a{
+  color: #999;
+  font-size: 16px;
+}
+.jyfoot ul li dl dd a:hover, .jyfoot .ft_link a:hover{
+  color: #ff7800;
+  text-decoration: none;
+}
+.jyfoot .ft_link{
+  color: #999999;
+  line-height: 30px;
+  height: 30px;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 40px;
+}
+.jyfoot .ft_link a{
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.jyfoot .ft_link img{
+  display: inline-block;
+  margin-left: 20px;
+}
+.jyfoot .ft_link .links{
+  width: 870px;
+  margin: 0 auto;
+}
+.jyfoot .ft_link .jy_ba{
+  float: right;
+}
+.jyfoot .footer{
+  background-color: #222;
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 40px;
+  color: #666666;
+}

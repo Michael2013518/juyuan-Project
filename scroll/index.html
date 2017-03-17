@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>jQuery仿天猫左侧导航滚动效果</title>
+        <meta name="keywords" content="jQuery导航滚动,jQuery滚动" />
+        <meta name="description" content="今天我们要实现的效果是：1、当点击菜单项时，可以平滑地滚动到页面指定的位置。2、当页面滚动时，菜单也随着滚动。3、当页面滚动到菜单项对应位置时，当前菜单项为选中样式。" />
+        <link rel="stylesheet" type="text/css" href="http://www.sucaihuo.com/jquery/css/common.css" />
+        <style type="text/css">
+            .navList{width:160px; position:fixed; margin-left:-170px; top:20%; z-index:1999; background:#f0f0f0; border: 1px solid #ccc;
+                 -webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;
+                 -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);}
+            .navList li{height:36px; line-height:36px; border-bottom:1px solid #d3d3d3; text-align:center; cursor:pointer}
+            .navList li:last-child{border-bottom:none}
+            .navList li a{display:block; width:98%; height:34px;font-size:16px;}
+            .navList li a:hover{background:#f9f9f9; text-decoration:none}
+            .navList li a.cur{background:#ffc}
+            .box{height:600px; margin: 0 10px}
+            .box h3{height:32px; line-height:32px; padding-left:20px; font-size:14px}
+            .box p{line-height:30px; margin:20px; text-align:center; font-size:28px}
+            .box p span{margin:10px}
+            #pro,#ser,#job{background:url(images/bg.jpg)}
+            #news,#con,#com{background:url(images/bg2.gif)}
+        </style>
+        <script type="text/javascript" src="http://www.sucaihuo.com/Public/js/other/jquery.js"></script>
+    </head>
+    <body>
+
+        <div class="head">
+            <div class="head_inner">
+                <a class="logo" href="http://www.sucaihuo.com">
+
+                </a>
+            </div>
+        </div>
+        <div class="container" id="main">
+                <ul class="navList">
+                    <li><a class="navtop" href="#jytop"></a></li>
+                    <li><a class="invest" href="#invest">投资商城</a></li>
+                    <li><a class="trading_shops" href="#trading_shop">融资商城</a></li>
+                    <li><a class="enterprise-customiz" href="#enterprise-customiz">企业定制</a></li>
+                    <li><a class="none_performings" href="#none_performing">不良资产</a></li>
+                    <li><a class="point-shopping" href="#point-shopping">积分商城</a></li>
+                    <li><a class="fn_communitys" href="#fn_community">理财社区</a></li>
+                </ul>
+                <div id="invest" class="box">
+                    <h3>投资商城</h3>
+                </div>
+                <div id="trading_shop" class="box">
+                    <h3>融资商城</h3>
+                </div>
+                <div id="enterprise-customiz" class="box">
+                    <h3>企业定制</h3>
+                </div>
+                <div id="none_performing" class="box">
+                    <h3>不良资产</h3>
+                </div>
+                <div id="point-shopping" class="box">
+                    <h3>积分商城</h3>
+                </div>
+                <div id="fn_community" class="box">
+                    <h3>理财社区</h3>
+                </div>
+        </div>
+        <div class="foot">
+          网页底部内容
+        </div>
+
+        <script type="text/javascript">
+            $(function() {
+              $(window).bind('scroll',function(){
+                if($(document).scrollTop()>60){
+                  $('.navList').show(1);
+                }
+                else{
+                  $('.navList').hide(1);
+                }
+              });
+              var invest_top = $("#invest").offset().top;//距页顶偏移量
+              var trading_top = $("#trading_shop").offset().top;
+              var customiz_top = $("#enterprise-customiz").offset().top;
+              var none_top = $("#none_performing").offset().top;
+              var point_top = $("#point-shopping").offset().top;
+              var fn_top = $("#fn_community").offset().top;
+              $(window).scroll(function() { //滚动时候触发
+                  var scroH = $(this).scrollTop()+250;//滚动条滚动距离+滚动条高度
+                  if (scroH >= fn_top) {
+                      set_cur(".fn_communitys");
+                  }else if (scroH >= point_top) {
+                      set_cur(".point-shopping");
+                  }else if (scroH >= none_top) {
+                      set_cur(".none_performings");
+                  }else if (scroH >= customiz_top) {
+                      set_cur(".enterprise-customiz");
+                  }else if (scroH >= trading_top) {
+                      set_cur(".trading_shops");
+                  }else if(scroH >= invest_top) {
+                      set_cur(".invest");////设置状态
+                  }
+              });
+
+                $(".navList li a").click(function() {
+                    var el = $(this).attr('class');
+                    $('html, body').animate({
+                        scrollTop: $("#" + el).offset().top
+                    }, 300);
+                    $(this).addClass("cur").parent().siblings().find("a").removeClass("cur");
+                });
+
+            });
+            $(window).resize(function() {
+                navpos();
+            });
+            function navpos() {
+                var offset = $("#main").offset().left;
+                var nav_w = $(".navList").outerWidth();
+                var left = offset - nav_w;
+                if (left > 10) {
+                    $(".navList").css("margin-left", "-170px");
+                } else {
+                    $(".navList").css("margin-left", -(160 + left) + "px");
+                }
+            }
+            function set_cur(n) {
+                if ($(".navList a").hasClass("cur")) {
+                    $(".navList a").removeClass("cur");
+                }
+                $(".navList a" + n).addClass("cur");
+            }
+        </script>
+    </body>
+</html>

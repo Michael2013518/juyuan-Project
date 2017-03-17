@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>资讯专题 - 互联网P2P+O2O金融理财</title>
+    <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="libs/js/jquery.min.js"></script>
+    <script src="libs/js/bootstrap.min.js"></script>
+    <script src="libs/js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+<body>
+   <!--聚元财富 头部 导航 开始-->
+   <header>
+     <div id="investtop">
+      <div class="jytop">
+       <div class="top">
+           <div class="pull-left"><span><a href="index.html">返回金融超市</a></span> <span class="vline">|</span> <span class="fclink"><a href="invest-mall.html">投资商城</a></span> <span class="fclink"><a href="finance-mall.html">融资商城</a></span>
+           <span class="fclink"><a href="enterprise-customized.html">企业定制</a></span> <span class="fclink"><a href="non-performing.html">不良资产</a></span> <span class="fclink"><a href="mall-point.html">积分商城</a></span> <span class="fclink"><a href="finance-community.html">理财社区</a></span>
+           </div>
+           <div class="pull-right"><span class="media"><a href="#">官方媒体 <span class="caret"></span></a><ul class="submedia">
+               <li><a href="#"><img src="images/weixin-top.png" alt=""></a> <a href="#"><img src="images/weibo-top.png" alt=""></a> <a href="#"><img src="images/qq-top.png" alt=""></a></li>
+               <li><a href="#"><img src="images/qrcode.png" alt="" /></a></li>
+           </ul></span><span class="vline">|</span>全国热线：<span class="telno">400-8161-888</span><span class="vline">|</span>
+           <a href="#" class="btn btn-sm btn-warning" id="bttool">注册</a> <a href="#" class="btn btn-success btn-sm" id="bttool">登录</a>
+           </div>
+       </div>
+       </div>
+       </div>
+    <div class="container">
+      <nav class="navbar">
+     <div class="navbar-header">
+       <a href="#"><img src="images/logo.png" alt="Juyuan Logo"></a> <span class="sitemark"><img src="images/non-icon.png" alt="Site Mark"></span>
+     </div>
+     <div class="collapse navbar-collapse">
+       <ul class="nav navbar-nav navbar-right">
+         <li><a href="non-performing.html">首页</a></li>
+         <li><a href="qd-finance.html">清道资产</a></li>
+         <li class="active"><a href="qd-news.html">资讯专题</a></li>
+       </ul>
+     </div><!-- /.navbar-collapse -->
+   </nav>
+    </div>
+
+   </header><!--聚元财富 头部 导航 结束-->
+    <!--主题区块开始-->
+    <content>
+   <!-- 投资商城开始 -->
+   <div class="news-topic">
+     <div class="container" id="news-topic">
+       <div class="row">
+       <div class="col-lg-9">
+       <div class="news-topic-show">
+         <div class="news-title"><h1>怎么注意P2P理财陷阱，安全才是首要需关注的问题</h1></div>
+         <div class="news-content">
+           <p>规划纲要指出，“十三五”时期，要坚决贯彻党的十八大和十八届三中、四中、五中全会精神，深入贯彻习主席系列重要讲话精神特别是国防和军队建设重要论述，按照“四个全面”战略布局，以党在新形势下的强军目标为引领，深入推进政治建军、改革强军、依法治军，更加注重聚焦实战，更加注重创新驱动，更加注重体系建设，更加注重集约高效，更加注重军民融合，努力实现更高质量、更高效益、更可持续的发展，为实现中华民族伟大复兴的中国梦提供坚强力量保证。</p>
+	<p>规划纲要提出，到2020年，军队要如期实现国防和军队现代化建设“三步走”发展战略第二步目标，基本完成国防和军队改革目标任务，基本实现机械化，信息化建设取得重大进展，构建能够打赢信息化战争、有效履行使命任务的中国特色现代军事力量体系，使中国特色社会主义军事制度更加成熟、更加定型，为实现强军目标、建设世界一流军队打下更为扎实的前进基础。未来5年，军队主要领域发展指标要取得较大突破，关键作战能力要实现大幅跃升，整体发展布局得到明显优化。</p>
+
+	<p>规划纲要明确，要按照新体制新职能新使命，统筹推进思想政治建设、力量结构调整优化、武器装备发展、现代后勤建设、战场建设、信息基础设施、军事训练和部队管理、国防动员、国际军事合作、军事理论法规和国防科技创新、改革配套建设、军民融合发展等方面建设和工作。按照军队发展总体布局和体系建设要求，集中实施一批战略性、基础性、枢纽性、引领性的重大工程项目。“十三五”军队建设资源投向投量要向这些任务项目聚焦，优先满足军事斗争准备急需，充分保障改革任务顺利实施，稳步提升军人生活待遇水平，统筹兼顾各项事业发展需要，为军队建设发展提供可靠支撑。</p>
+
+	<p>规划纲要明确，要按照新体制新职能新使命，统筹推进思想政治建设、力量结构调整优化、武器装备发展、现代后勤建设、战场建设、信息基础设施、军事训练和部队管理、国防动员、国际军事合作、军事理论法规和国防科技创新、改革配套建设、军民融合发展等方面建设和工作。按照军队发展总体布局和体系建设要求，集中实施一批战略性、基础性、枢纽性、引领性的重大工程项目。“十三五”军队建设资源投向投量要向这些任务项目聚焦，优先满足军事斗争准备急需，充分保障改革任务顺利实施，稳步提升军人生活待遇水平，统筹兼顾各项事业发展需要，为军队建设发展提供可靠支撑。</p>
+         </div>
+         <div class="publish-date">发布于：<i>2015-03-09</i></div>
+       </div>
+
+       </div>
+       <div class="col-lg-3">
+         <div class="ad-list">
+           <h1>热门活动</h1>
+           <a href="#"><img src="images/ad01.png" alt=""></a>
+           <h2>4.18随机送5%收益</h2>
+           <a href="#"><img src="images/ad02.png" alt=""></a>
+           <h2>4.18随机送5%收益</h2>
+           <a href="#"><img src="images/ad03.jpg" alt=""></a>
+           <h2>4.18随机送5%收益</h2>
+         </div>
+       </div>
+    </div>
+     </div>
+
+   </div>
+
+
+
+
+    </content>
+    <!--主题区块结束-->
+
+    <!--视频、合作伙伴 开始-->
+    <div class="jypartner">
+      <div class="container">
+        <h1>合作伙伴</h1>
+        <div id="partner-slides" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#partner-slides" data-slide-to="0" class="active"></li>
+            <li data-target="#partner-slides" data-slide-to="1" ></li>
+            <li data-target="#partner-slides" data-slide-to="2" ></li>
+          </ol>
+         <div class="carousel-inner">
+           <div class="item active"><ul>
+             <li><img src="images/partner01.jpg" alt="" /></li>
+             <li><img src="images/partner02.jpg" alt="" /></li>
+             <li><img src="images/partner03.jpg" alt="" /></li>
+           </ul></div>
+           <div class="item"><ul>
+             <li><img src="images/partner02.jpg" alt="" /></li>
+             <li><img src="images/partner01.jpg" alt="" /></li>
+             <li><img src="images/partner03.jpg" alt="" /></li>
+           </ul></div>
+           <div class="item"><ul>
+             <li><img src="images/partner03.jpg" alt="" /></li>
+             <li><img src="images/partner02.jpg" alt="" /></li>
+             <li><img src="images/partner01.jpg" alt="" /></li>
+           </ul></div>
+         </div>
+         <a href="#partner-slides" class="left carousel-control" role="button" data-slide="prev">
+           <span class="glyphicon jyglyphicon-chevron-left" ></span></a>
+          <a href="#partner-slides" class="right carousel-control" role="button" data-slide="next">
+            <span class="glyphicon jyglyphicon-chevron-right" ></span></a>
+        </div>
+      </div>
+    </div><!--视频、合作伙伴 结束-->
+    <footer>
+      <div class="jyfoot">
+      <div class="container" id="jyfoot">
+        <ul>
+          <li class="jy_about">
+            <dl class="">
+             <dt><h1>关于我们</h1></dt>
+             <dd><a href="#">公司简介</a></dd>
+             <dd><a href="#">团队展示</a></dd>
+             <dd><a href="#">公司资质</a></dd>
+            </dl>
+          </li>
+          <li class="jy_news fwd">
+            <dl class="">
+             <dt><h1>新闻中心</h1></dt>
+             <dd><a href="#">媒体报道</a></dd>
+             <dd><a href="#">行业动态</a></dd>
+             <dd><a href="#">公司新闻</a></dd>
+            </dl>
+          </li>
+          <li class="jy_community fwd">
+            <dl class="">
+             <dt><h1>理财社区</h1></dt>
+             <dd><a href="#">理财知识</a></dd>
+             <dd><a href="#">个人问答</a></dd>
+             <dd><a href="#">各类基金</a></dd>
+             <dd><a href="#">车金融</a></dd>
+            </dl>
+          </li>
+          <li class="jy_shoping fwd">
+            <dl class="">
+             <dt><h1>投资商城</h1></dt>
+             <dd><a href="#">理财产品</a></dd>
+             <dd><a href="#">债权列表</a></dd>
+             <dd><a href="#">阳光私募</a></dd>
+             <dd><a href="#">汽车金融</a></dd>
+            </dl>
+          </li>
+          <li class="jy_help fwd">
+            <dl class="">
+             <dt><h1>帮助中心</h1></dt>
+             <dd><a href="#">媒体报道</a></dd>
+             <dd><a href="#">行业动态</a></dd>
+             <dd><a href="#">公司新闻</a></dd>
+            </dl>
+          </li>
+          <li class="jy_social">
+            <span class="pull-left">
+              <h1>关注聚元</h1>
+              <span><a href="#"><img src="images/weibo.png" alt="weibo" /></a></span> <span><a href="#"><img src="images/weixin.png" alt="weixin"></a></span>
+              <p class="website">www.jycf.com</p>
+              <p>官方网址</p>
+            </span>
+            <span class="pull-right">
+              <h1>在线咨询</h1>
+              <span><a href="#"><img src="images/qq.png" alt="qq" /></a></span>
+              <p>全国服务热线</p>
+            </span>
+          </li>
+        </ul>
+        <div class="clearfix"></div>
+        <div class="ft_link">
+          <div class="links"><span>友情链接：<a href="#">聚众资产</a><a href="#">聚元好车</a><a href="#">典当行</a><a href="清道资产"></a><a href="#">国帕租赁</a> <a href="#">超人贷</a> | </span>
+            <span class="jy_ba"><img src="images/ba01.jpg" alt=""> <img src="images/ba02.jpg" alt=""> <img src="images/ba03.jpg" alt=""> <img src="images/ba04.jpg" alt=""></span>
+        </div>
+        </div>
+      </div>
+      <div class="footer">Copyright © 2002-2011 juyuancaifu.com. 聚元财富 版权所有 | 企业代码：201009 | 浙ICP备15013811号</div>
+      </div>
+    </footer><!--底部区块-->
+
+
+    <script>
+    jQuery(".pull-right").slide({
+    type:"menu",// 效果类型，针对菜单/导航而引入的参数（默认slide）
+		titCell:".media", //鼠标触发对象
+		targetCell:".submedia", //titCell里面包含的要显示/消失的对象
+		effect:"slideDown", //targetCell下拉效果
+		delayTime:300 , //效果时间
+		triggerTime:0, //鼠标延迟触发时间（默认150）
+		returnDefault:true //鼠标移走后返回默认状态，例如默认频道是“预告片”，鼠标移走后会返回“预告片”（默认false）
+    });
+    $('#newsTabs a').hover(function(e){
+      $(this).tab('show');
+    });
+    jQuery(".jybanner").slide({mainCell:".bannerlist ul",autoPlay:true});
+    jQuery(".txtScroll-top").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"top",autoPlay:true,vis:5});
+    jQuery(".menu-left").slide({  type:"menu", titCell:".mainCate", targetCell:".subCate", delayTime:0, triggerTime:0, defaultPlay:false, returnDefault:true });
+    jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true});
+    </script>
+</body>
+</html>
